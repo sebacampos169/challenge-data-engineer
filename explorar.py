@@ -2,7 +2,9 @@ import duckdb
 con = duckdb.connect()
 #print(con.sql("SELECT COUNT(*) FROM read_csv('data/raw/historico/Ventas.csv')"))
 
-print(con.sql("SELECT * FROM read_csv('data/raw/historico/Ventas.csv') LIMIT 100")) #Ventas
+print(con.sql("SELECT Ubicación_Cliente, COUNT(*) " \
+"FROM read_csv('data/raw/historico/Ventas.csv') " \
+"GROUP BY Ubicación_Cliente")) #Ventas
 
 # print(con.sql("SELECT * FROM read_csv('data/raw/historico/Precios.csv') LIMIT 10")) #Precios
 

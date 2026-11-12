@@ -1,0 +1,113 @@
+ID_Devolución,ID_Venta,Fecha,ID_Producto,ID_Cliente,ID_Tienda,Cantidad_Devuelta,Motivo,Precio_Unitario,Nombre_Cliente,Ubicación_Cliente,Nombre_Tienda,Ubicación_Tienda,Nombre_Producto,Categoría_Producto
+4714,79853,15/01/2026,62,555,20,1,Talle incorrecto,62.71,Marco Castro (555),Brasil,Tienda Online BR,Brasil,Campera Niño,Ropa
+4627,79868,01/01/2026,54,486,20,3,No satisfecho,52.95,María Lima,Brasil,Tienda Online BR,brasil,Campera Mujer,Ropa
+4621,79429,01/01/2026,11,94,8,1,No satisfecho,917.18,María Ricci (94),Brazil,São Paulo Paulista,Brazil,"Tablet 10""",Electrónica
+4635,79737,02/01/2026,62,511,15,2,Talle incorrecto,62.71,Beatriz Costa (511),Italy,Roma Termini,Italy,Campera Niño,Ropa
+4704,79899,11/01/2026,12,488,12,1,Defectuoso,123.89,Lucía Costa (488),Brasil,Porto Alegre Moinhos,Brasil,Auriculares Bluetooth,Electrónica
+4630,78105,02/01/2026,66,53,8,2,Talle incorrecto,149.42,Mateo Ferrari (53),brasil,São Paulo Paulista,brasil,Botas,Ropa
+4625,77027,01/01/2026,65,293,19,2,Defectuoso,143.53,Diego Costa (293),México,Tienda Online MX,México,Zapatillas Urbanas,Ropa
+4700,79708,11/01/2026,71,303,21,1,No satisfecho,29.58,Gabriela Costa (303),Italia,Tienda Online IT,Italia,Cinturón,Ropa
+4695,79985,09/01/2026,98,614,19,3,Producto vencido,10.9,Paula Castro,Mexico,Tienda Online MX,México,Detergente 750ml,Alimentos
+4638,75198,02/01/2026,15,548,19,1,Defectuoso,98.2,Andrés Santos,México,Tienda Online MX,Mexico,Auriculares Gamer,Electrónica
+4705,79204,11/01/2026,68,514,2,21,Talle incorrecto,84.87,Mayorista Costa del Norte,México,CDMX Santa Fe,Mexico,Zapato de Vestir,Ropa
+4712,78815,15/01/2026,61,24,21,1,Talle incorrecto,50.86,Beatriz Castro (24),Italia,Tienda Online IT,Italia,Jean Niño,Ropa
+4670,79347,05/01/2026,14,303,21,1,Llegó dañado,56.66,Gabriela Costa (303),ITALIA ,Tienda Online IT,Italy,Barra de Sonido,Electrónica
+4659,79996,04/01/2026,64,417,19,1,Defectuoso,120.54,Lorenzo García (417),México,Tienda Online MX,México,Zapatillas Running,Ropa
+4669,78660,05/01/2026,63,33,21,1,No satisfecho,42.45,Marco López,Italia,Tienda Online IT,Italia,Pijama Infantil,Ropa
+4716,81677,16/01/2026,69,554,15,1,Defectuoso,97.74,Sofía Castro,Italia,Roma Termini,Italia,Ojotas,Ropa
+4717,78916,16/01/2026,56,498,10,2,Talle incorrecto,54.99,Pedro López (498),Brasil,Rio Barra,Brasil,Falda,Ropa
+4718,80886,16/01/2026,75,412,9,1,Talle incorrecto,28.3,Beatriz Pereira,Brasil,São Paulo Morumbi,Brazil,Billetera,Ropa
+4719,79748,16/01/2026,3,110,21,1,No satisfecho,1058.75,Thiago Pereira (110),Italia,Tienda Online IT,Italia,"Smart TV 55""",Electrónica
+4720,81344,16/01/2026,75,390,21,2,Talle incorrecto,28.3,Valeria Costa,Italy,Tienda Online IT,Italia,Billetera,Ropa
+4721,81394,16/01/2026,69,562,1,1,Error en pedido,97.74,Pedro Romero (562),MEXICO,CDMX Polanco,México,Ojotas,Ropa
+4722,80232,16/01/2026,59,576,20,1,No satisfecho,21.94,Sofía Morales,Brasil,Tienda Online BR,Brasil,Conjunto Infantil,Ropa
+4723,80272,16/01/2026,34,57,21,2,No satisfecho,554.22,Gabriela Souza (57),Italia,Tienda Online IT,Italia,Rack TV,Muebles
+4724,81730,16/01/2026,51,255,20,2,Talle incorrecto,77.38,Diego Souza (255),Brasil,Tienda Online BR,Brazil,Pantalón Chino,Ropa
+4725,81457,16/01/2026,26,110,14,2,No satisfecho,349.58,Thiago Pereira (110),Italia,Milano Duomo,Italy,Silla Ergonómica,Muebles
+4726,80837,17/01/2026,15,253,1,4,Defectuoso,83.74,Almacenes Esposito Premium,México,CDMX Polanco,México,Auriculares Gamer,Electrónica
+4727,80747,17/01/2026,59,92,19,1,No satisfecho,21.94,Fernanda Rossi (92),México,Tienda Online MX,México,Conjunto Infantil,Ropa
+4728,80871,17/01/2026,15,578,19,1,No satisfecho,98.2,Diego Santos (578),MEXICO,Tienda Online MX,México,Auriculares Gamer,Electrónica
+4729,81766,17/01/2026,19,302,15,1,No satisfecho,698.38,Ana Silva (302),Italia,Roma Termini,ITALIA ,Smartwatch,Electrónica
+4730,81444,17/01/2026,67,14,20,1,Error en pedido,132.93,Carlos Santos (14),Brasil,Tienda Online BR,Brasil,Sandalias,Ropa
+4731,81633,17/01/2026,62,9,9,2,Defectuoso,66.04,Pedro Ricci (9),Brasil,São Paulo Morumbi,Brasil,Campera Niño,Ropa
+4732,81490,18/01/2026,75,470,3,27,Error en pedido,23.4,Mayorista Silva Central,MEXICO,Monterrey Centro,México,Billetera,Ropa
+4733,81114,18/01/2026,3,571,11,1,Defectuoso,985.24,Luis Hernández (571),Brasil,Belo Horizonte Savassi,Brasil,"Smart TV 55""",Electrónica
+4734,81979,18/01/2026,59,9,9,1,Error en pedido,21.94,Pedro Ricci (9),Brasil,São Paulo Morumbi,brasil,Conjunto Infantil,Ropa
+4735,81363,18/01/2026,67,153,21,3,Talle incorrecto,132.93,Fernanda Ramírez,Italy,Tienda Online IT,Italia,Sandalias,Ropa
+4736,81020,18/01/2026,15,3,20,1,Error en pedido,98.2,Gabriela Oliveira (3),Brasil,Tienda Online BR,Brasil,Auriculares Gamer,Electrónica
+4737,81395,18/01/2026,73,562,1,2,Talle incorrecto,37.1,Pedro Romero (562),MEXICO,CDMX Polanco,Mexico,Bufanda,Ropa
+4738,80456,18/01/2026,47,353,1,2,Talle incorrecto,38.57,Lucía Castro (353),México,CDMX Polanco,México,Jean Hombre,Ropa
+4739,81041,19/01/2026,59,302,14,3,Talle incorrecto,21.94,Ana Silva (302),Italia,Milano Duomo,Italy,Conjunto Infantil,Ropa
+4740,81838,19/01/2026,42,640,20,2,Defectuoso,177.73,Lorenzo Ramírez,Brasil,Tienda Online BR,Brazil,Reposera,Muebles
+4741,81506,19/01/2026,20,576,13,1,Defectuoso,590.29,Sofía Morales,Brasil,Curitiba Batel,Brazil,Smartphone Gama Baja,Electrónica
+4742,80616,19/01/2026,72,71,8,1,Error en pedido,62.95,Rafael Ricci,Brasil,São Paulo Paulista,Brazil,Mochila,Ropa
+4743,81664,19/01/2026,3,416,20,1,Defectuoso,1180.32,Lucía Martínez (416),Brasil,Tienda Online BR,Brasil,"Smart TV 55""",Electrónica
+4744,81713,19/01/2026,18,319,19,1,Error en pedido,380.75,Gabriela Ramírez,México,Tienda Online MX,Mexico,Smartphone Gama Alta,Electrónica
+4745,81313,19/01/2026,70,437,20,3,Error en pedido,18.98,Diego Ramírez (437),Brasil,Tienda Online BR,Brasil,Gorra,Ropa
+4746,80115,19/01/2026,55,288,19,8,Talle incorrecto,72.72,Distribuidora Santos del Sur,Mexico,Tienda Online MX,México,Blusa,Ropa
+4747,79772,19/01/2026,67,292,19,1,No satisfecho,127.32,Lorenzo Rossi (292),México,Tienda Online MX,México,Sandalias,Ropa
+4748,79435,19/01/2026,39,616,20,1,No satisfecho,739.61,Lucía Castro (616),Brasil,Tienda Online BR,Brasil,Placard 3 Puertas,Muebles
+4749,81810,19/01/2026,67,183,4,2,No satisfecho,132.93,Gabriela Romero,Mexico,Guadalajara Andares,México,Sandalias,ropa
+4750,82038,19/01/2026,48,79,20,1,Talle incorrecto,107.48,Lucía Romero (79),Brasil,Tienda Online BR,Brazil,Campera Hombre,Ropa
+4751,81782,20/01/2026,75,24,14,3,No satisfecho,29.18,Beatriz Castro (24),Italia,Milano Duomo,Italia,Billetera,Ropa
+4752,81642,20/01/2026,24,452,20,1,Defectuoso,23.19,Fernanda Torres (452),Brasil,Tienda Online BR,Brasil,Teclado Inalámbrico,Electrónica
+4753,81066,20/01/2026,3,278,19,3,No satisfecho,901.71,Grupo Rossi Global,México,Tienda Online MX,México,"Smart TV 55""",Electrónica
+4754,81248,21/01/2026,64,171,15,2,Error en pedido,120.54,Ana Hernández (171),Italy,Roma Termini,Italia,Zapatillas Running,Ropa
+4755,81784,21/01/2026,79,495,14,2,Defectuoso,7.26,Paula Lima (495),Italia,Milano Duomo,Italia,Café Molido 500g,Alimentos
+4756,82103,21/01/2026,75,3,12,1,No satisfecho,29.18,Gabriela Oliveira (3),Brasil,Porto Alegre Moinhos,Brasil,Billetera,Ropa
+4757,81234,21/01/2026,73,114,15,1,Talle incorrecto,37.1,Jorge Bianchi,Italy,Roma Termini,Italia,Bufanda,Ropa
+4758,81500,22/01/2026,75,470,3,25,Talle incorrecto,23.4,Mayorista Silva Central,México,Monterrey Centro, México,Billetera,Ropa
+4759,81120,22/01/2026,69,83,11,3,Talle incorrecto,83.29,Beatriz Ramírez (83),Brasil,Belo Horizonte Savassi,Brasil,Ojotas,Ropa
+4760,82101,22/01/2026,60,527,12,3,Talle incorrecto,65.84,Beatriz Ferrari (527),brasil,Porto Alegre Moinhos,Brasil,Remera Niño,Ropa
+4761,81328,22/01/2026,75,255,13,1,No satisfecho,28.3,Diego Souza (255),Brazil,Curitiba Batel,Brasil,Billetera,Ropa
+4762,82128,22/01/2026,75,619,21,2,Talle incorrecto,29.18,Beatriz López,Italia,Tienda Online IT,Italia,Billetera,Ropa
+4763,80636,22/01/2026,51,449,15,3,Talle incorrecto,67.19,Giulia Torres,Italia,Roma Termini,Italy,Pantalón Chino,Ropa
+4764,80388,22/01/2026,38,161,8,2,Error en pedido,351.08,María Hernández (161),Brasil,São Paulo Paulista,Brasil,Mesa de Luz,Muebles
+4765,80318,22/01/2026,13,207,19,8,Defectuoso,75.56,Grupo Costa Premium (207),Mexico,Tienda Online MX,México,Parlante Portátil,Electrónica
+4766,82381,22/01/2026,3,467,2,1,Defectuoso,1180.32,Pedro López (467),México,CDMX Santa Fe,MEXICO,"Smart TV 55""",Electrónica
+4767,82476,22/01/2026,83,415,14,1,Producto vencido,15.68,Marco Morales,Italia,Milano Duomo,Italia,Gaseosa 2.25L,Alimentos
+4768,81857,23/01/2026,19,194,20,2,Defectuoso,604.82,Distribuidora Ramírez Integral,Brasil,Tienda Online BR,Brasil,Smartwatch,Electrónica
+4769,81966,23/01/2026,75,365,20,1,No satisfecho,25.62,Sofía Pereira (365),Brasil,Tienda Online BR,Brasil,Billetera,Ropa
+4770,81762,23/01/2026,65,575,20,3,Talle incorrecto,153.37,João Bianchi (575),Brasil,Tienda Online BR,Brazil,Zapatillas Urbanas,Ropa
+4771,78831,23/01/2026,66,221,19,2,No satisfecho,149.42,Mateo Rossi (221), México,Tienda Online MX,Mexico,Botas,Ropa
+4772,80184,23/01/2026,75,512,20,3,Talle incorrecto,28.3,Beatriz Souza (512),Brasil,Tienda Online BR,Brasil,Billetera,Ropa
+4773,80990,24/01/2026,62,48,20,2,Talle incorrecto,62.71,Ana López,Brasil,Tienda Online BR,Brasil,Campera Niño,Ropa
+4774,82629,24/01/2026,3,416,20,1,Defectuoso,1180.32,Lucía Martínez (416),Brasil,Tienda Online BR,Brasil,"Smart TV 55""",Electrónica
+4775,81612,24/01/2026,66,120,1,1,Talle incorrecto,160.47,Luis Morales (120),Mexico,CDMX Polanco,Mexico,Botas,Ropa
+4776,81547,24/01/2026,3,608,8,2,No satisfecho,1025.55,Importadora Santos Premium,Brasil,São Paulo Paulista,Brazil,"Smart TV 55""",Electrónica
+4777,81537,24/01/2026,17,547,8,3,No satisfecho,373.72,Importadora Martínez Integral (547),brasil,São Paulo Paulista,Brasil,Smartphone Gama Media,Electrónica
+4778,82487,24/01/2026,79,578,19,2,Producto vencido,7.26,Diego Santos (578), México,Tienda Online MX,México,Café Molido 500g,Alimentos
+4779,82080,24/01/2026,47,141,1,1,Talle incorrecto,38.57,María Esposito,México,CDMX Polanco,Mexico,Jean Hombre,Ropa
+4780,82388,24/01/2026,5,7,19,1,Defectuoso,998.88,Diego Lima (7),MEXICO,Tienda Online MX,México,"Smart TV 75""",Electrónica
+4781,81186,24/01/2026,49,156,5,2,Talle incorrecto,79.21,Pedro Souza (156),México,Puebla Angelópolis,Mexico,Remera Hombre,Ropa
+4782,80140,25/01/2026,97,467,19,6,Error en pedido,14.15,Pedro López (467),México,Tienda Online MX,México,Huevos x12,Alimentos
+4783,81942,25/01/2026,59,614,1,1,Talle incorrecto,21.94,Paula Castro,México,CDMX Polanco,México,Conjunto Infantil,Ropa
+4784,81498,25/01/2026,50,470,3,34,No satisfecho,34.64,Mayorista Silva Central,México,Monterrey Centro,México,Buzo Hombre,Ropa
+4785,81735,25/01/2026,19,486,12,1,Defectuoso,698.38,María Lima,Brasil,Porto Alegre Moinhos,Brasil,Smartwatch,Electrónica
+4786,80989,25/01/2026,17,529,8,1,No satisfecho,417.26,Sofía Pereira (529),Brasil,São Paulo Paulista,Brasil,Smartphone Gama Media,Electrónica
+4787,82127,25/01/2026,2,619,21,1,Error en pedido,586.24,Beatriz López,Italia,Tienda Online IT,Italia,"Smart TV 50""",electrónica
+4788,82211,26/01/2026,55,402,11,11,No satisfecho,72.06,Grupo Costa Premium (402),Brazil,Belo Horizonte Savassi,Brasil,Blusa,Ropa
+4789,81456,26/01/2026,79,390,14,4,Defectuoso,7.03,Valeria Costa,Italia,Milano Duomo,Italia,Café Molido 500g,Alimentos
+4790,81973,26/01/2026,2,205,20,1,Defectuoso,586.24,Gabriela Ferrari,Brazil,Tienda Online BR,Brasil,"Smart TV 50""",Electrónica
+4791,81890,26/01/2026,91,576,11,1,Defectuoso,5.26,Sofía Morales,Brasil,Belo Horizonte Savassi,Brasil,Mix de Frutos Secos,Alimentos
+4792,82292,26/01/2026,21,513,20,1,No satisfecho,16.13,Beatriz Russo (513),Brasil,Tienda Online BR,Brasil,Cargador USB-C,Electrónica
+4793,82375,26/01/2026,72,599,3,6,Error en pedido,62.66,Comercial Silva Unida,México,Monterrey Centro,México,Mochila,Ropa
+4794,81920,27/01/2026,71,578,6,2,No satisfecho,31.75,Diego Santos (578),MEXICO,Querétaro Juriquilla,México,Cinturón,Ropa
+4795,82930,28/01/2026,60,627,10,1,No satisfecho,65.84,Luis Lima,Brazil,Rio Barra,Brasil,Remera Niño,Ropa
+4796,82963,28/01/2026,71,578,6,2,Talle incorrecto,31.75,Diego Santos (578),Mexico,Querétaro Juriquilla,México,Cinturón,Ropa
+4797,81133,29/01/2026,34,83,20,1,Defectuoso,577.97,Beatriz Ramírez (83),Brasil,Tienda Online BR,Brasil,Rack TV,Muebles
+4798,81535,29/01/2026,75,576,13,2,No satisfecho,28.3,Sofía Morales,Brazil,Curitiba Batel,Brazil,Billetera,Ropa
+4799,82755,29/01/2026,51,361,17,1,No satisfecho,77.38,Rafael Esposito,Italia,Bologna Maggiore,Italia,Pantalón Chino,Ropa
+4800,82239,29/01/2026,15,464,12,2,No satisfecho,89.48,Grupo García Unida,Brasil,Porto Alegre Moinhos,brasil,Auriculares Gamer,Electrónica
+4801,82965,30/01/2026,76,272,3,2,Defectuoso,7.09,Rafael Silva (272),México,Monterrey Centro,México,Aceite de Oliva 1L,Alimentos
+4802,82986,30/01/2026,49,156,5,2,Talle incorrecto,79.21,Pedro Souza (156),México,Puebla Angelópolis,México,Remera Hombre,ropa
+4803,82980,30/01/2026,60,467,19,2,Talle incorrecto,65.84,Pedro López (467),México,Tienda Online MX,México,Remera Niño,Ropa
+4804,81714,30/01/2026,63,319,19,2,No satisfecho,37.89,Gabriela Ramírez,México,Tienda Online MX,México,Pijama Infantil,Ropa
+4805,82834,30/01/2026,66,181,20,3,No satisfecho,160.47,Valeria Rossi (181),Brasil,Tienda Online BR,Brazil,Botas,Ropa
+4806,82780,30/01/2026,40,368,4,1,Defectuoso,334.19,Camila Santos (368),México,Guadalajara Andares,México,Cómoda,Muebles
+4807,82206,30/01/2026,67,199,9,1,Talle incorrecto,115.17,Beatriz Hernández (199),Brasil,São Paulo Morumbi,Brazil,Sandalias,Ropa
+4808,82917,30/01/2026,60,45,20,1,Error en pedido,62.16,Pedro Hernández (45),Brasil,Tienda Online BR,Brasil,Remera Niño,Ropa
+4809,82920,31/01/2026,86,113,12,8,Producto vencido,11.32,Lorenzo Esposito (113),Brasil,Porto Alegre Moinhos,brasil,Cerveza Pack x6,Alimentos
+4810,82390,31/01/2026,27,7,19,2,Defectuoso,119.22,Diego Lima (7),México,Tienda Online MX,Mexico,Escritorio en L,Muebles
+4811,83159,31/01/2026,51,141,1,1,No satisfecho,77.38,María Esposito,Mexico,CDMX Polanco,México,Pantalón Chino,Ropa
+4812,83206,31/01/2026,99,384,11,3,Error en pedido,3.34,Jorge Lima (384),Brasil,Belo Horizonte Savassi,Brasil,Lavandina 2L,Alimentos

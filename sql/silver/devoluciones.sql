@@ -44,15 +44,16 @@ WHERE archivo = '{ruta}';
 CREATE OR REPLACE TEMP TABLE devoluciones_chk AS
 SELECT *,
     concat_ws(',',
-        CASE WHEN fecha IS NULL THEN 'V01' END,
-        CASE WHEN id_venta IS NULL OR id_producto IS NULL OR id_tienda IS NULL THEN 'V02' END,
-        CASE WHEN cantidad_devuelta IS NULL OR cantidad_devuelta <= 0 THEN 'V03' END,
-        CASE WHEN precio_unitario IS NULL OR precio_unitario <= 0 THEN 'V04' END,
-        CASE WHEN ubicacion_tienda IS NULL THEN 'V05' END,
-        CASE WHEN categoria_producto IS NULL THEN 'V06' END,
-        --CASE WHEN tipo_venta = 'Retail' AND cantidad > 100 THEN 'V07' END,
-        CASE WHEN rn > 1 THEN 'V08' END
+        CASE WHEN d.fecha IS NULL THEN 'SIN FECHA' END,
+        CASE WHEN d.id_venta IS NULL OR d.id_producto IS NULL OR d.id_tienda IS NULL THEN 'SIN ID' END,
+        CASE WHEN d.cantidad_devuelta IS NULL OR d.cantidad_devuelta <= 0 THEN 'CANTIDAD DEVUELTA NULA O NEGATIVA' END,
+        CASE WHEN d.precio_unitario IS NULL OR d.precio_unitario <= 0 THEN 'PRECIO NULO O NEGATIVO' END,
+        CASE WHEN d.ubicacion_tienda IS NULL THEN 'TIENDA NULA' END,
+        CASE WHEN d.categoria_producto IS NULL THEN 'CANTEGORIA NULA' END,
+        CASE WHEN d.cantidad_devuelta > v.cantidad THEN 'CANTIDAD DEVUELTA > CANTIDAD VENDIDA' END,
+        CASE WHEN d.id_devolucion IS NOT NULL AND v.id_venta IS NULL THEN 'VENTA INEXISTENTE' END
     ) AS fallas
-FROM (
-    SELECT *, row_number() OVER (PARTITION BY id_venta ORDER BY linea) AS rn
-    FROM devoluciones_norm)
+FROM 
+    devoluciones_norm d
+    LEFT JOIN silver.ventas v
+    ON  d.id_venta = v.id_venta

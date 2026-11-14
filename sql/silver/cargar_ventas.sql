@@ -1,6 +1,6 @@
 CREATE SCHEMA IF NOT EXISTS silver;
 CREATE TABLE IF NOT EXISTS silver.ventas (
-     id_venta        BIGINT PRIMARY KEY,
+    id_venta        BIGINT PRIMARY KEY,
     archivo         VARCHAR,
     fecha           DATE,
     id_producto     INTEGER,

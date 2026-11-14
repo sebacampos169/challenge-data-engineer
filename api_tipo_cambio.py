@@ -3,7 +3,7 @@ import pandas as pd
 import duckdb
 con = duckdb.connect('warehouse.duckdb')
 
-url = "https://api.frankfurter.dev/v1/2025-01-01..2025-01-10"
+url = "https://api.frankfurter.dev/v1/2024-01-01..2026-03-31"
 parametros = {
     "base": "USD",
     "symbols": "MXN,BRL,EUR"

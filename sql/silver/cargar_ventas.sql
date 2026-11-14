@@ -1,4 +1,5 @@
 CREATE SCHEMA IF NOT EXISTS silver;
+ALTER TABLE silver.ventas ADD COLUMN IF NOT EXISTS codigo_promocion VARCHAR;
 CREATE TABLE IF NOT EXISTS silver.ventas (
     id_venta        BIGINT PRIMARY KEY,
     archivo         VARCHAR,
@@ -10,12 +11,13 @@ CREATE TABLE IF NOT EXISTS silver.ventas (
     tipo_venta      VARCHAR,
     pais_tienda     VARCHAR,
     categoria       VARCHAR,
-    canal           VARCHAR
+    canal           VARCHAR,
+    codigo_promocion VARCHAR
 );
 
 -- IMPORTANTE UPSERT DE TABLA, si id_venta existe lo actualiza, en caso de que no exista lo inserta
 INSERT OR REPLACE INTO silver.ventas
-SELECT id_venta, archivo, fecha, id_producto, id_tienda, cantidad, precio_unitario, tipo_venta, pais_tienda, categoria, canal
+SELECT id_venta, archivo, fecha, id_producto, id_tienda, cantidad, precio_unitario, tipo_venta, pais_tienda, categoria, canal, codigo_promocion
 FROM ventas_chk
 WHERE fallas = '';
 

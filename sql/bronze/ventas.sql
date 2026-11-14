@@ -9,6 +9,9 @@ WHERE false;
 -- Idempotencia: borra lo que ya se había cargado y vuelve a leer
 DELETE FROM bronze.ventas WHERE archivo = '{ruta}';
 
+-- Agrego nueva columna, aparecio en el incremental
+ALTER TABLE bronze.ventas ADD COLUMN IF NOT EXISTS Codigo_Promocion VARCHAR;
+
 -- Inserto la nueva info
 INSERT INTO bronze.ventas
 SELECT filename, row_number() OVER (), now(), * EXCLUDE (filename)

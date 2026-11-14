@@ -25,13 +25,13 @@ con.execute("""
     CREATE TABLE IF NOT EXISTS bronze.api_tipo_cambio (
         fecha DATE, 
         moneda VARCHAR, 
-        tasa DECIMAL(18,2),
+        tasa DECIMAL(18,8),
         PRIMARY KEY (fecha, moneda)
     )""")
 
 con.execute("""
     INSERT OR REPLACE INTO bronze.api_tipo_cambio (fecha, moneda, tasa)
-    SELECT fecha, moneda, tasa FROM api_tipo_cambio""")
+    SELECT fecha, moneda, tasa FROM api_tipo_cambio""") #Lee desde el df
 
 
 con.close()

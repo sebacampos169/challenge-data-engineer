@@ -30,7 +30,9 @@ SELECT
     coalesce(
         nullif(trim(Canal_Venta), ''),
         CASE WHEN Nombre_Tienda LIKE 'Tienda Online%' THEN 'Online' ELSE 'Offline' END
-    ) AS canal
+    ) AS canal,
+
+    Codigo_Promocion AS codigo_promocion  
 FROM bronze.ventas
 WHERE archivo = '{ruta}';
 

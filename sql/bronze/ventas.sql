@@ -13,6 +13,9 @@ DELETE FROM bronze.ventas WHERE archivo = '{ruta}';
 ALTER TABLE bronze.ventas ADD COLUMN IF NOT EXISTS Codigo_Promocion VARCHAR;
 
 -- Inserto la nueva info
-INSERT INTO bronze.ventas
-SELECT filename, row_number() OVER (), now(), * EXCLUDE (filename)
+INSERT INTO bronze.ventas BY NAME
+SELECT filename         AS archivo,
+ row_number() OVER ()   AS linea, 
+ now()                  AS cargado_en,
+  * EXCLUDE (filename)
 FROM read_csv('{ruta}', all_varchar=true, filename=true);

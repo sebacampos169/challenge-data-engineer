@@ -4,7 +4,7 @@ CREATE OR REPLACE TABLE gold.dim_pais AS
 SELECT * FROM (VALUES ('México','MXN'), ('Brasil','BRL'), ('Italia','EUR')) t(pais, moneda);
 
 CREATE OR REPLACE TABLE gold.fact_ventas AS
-SELECT v.id_venta, v.fecha, v.id_producto, v.id_tienda, v.cantidad,
+SELECT v.id_venta, v.fecha, v.id_producto, v.id_tienda, v.cantidad, v.categoria,
        v.precio_unitario                  AS precio_unitario_usd,
        v.tipo_venta, v.canal,
        v.pais_tienda                      AS pais,

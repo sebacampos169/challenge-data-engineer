@@ -1,7 +1,7 @@
 import duckdb
 con = duckdb.connect('warehouse.duckdb')
 
-ruta = 'data/raw/historico/Costos.csv'
+ruta = 'data/raw/incremental_2026-01/Costos.csv'
 
 def correr(archivo_sql, ruta):
     sql = open(archivo_sql, encoding='utf-8').read().replace('{ruta}', ruta)

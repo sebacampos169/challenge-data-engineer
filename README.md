@@ -1,10 +1,10 @@
 ## Cómo correrlo (un solo comando)
-
+```bash
 python -m venv .venv
 .venv\Scripts\activate          # Windows   (Linux/Mac: source .venv/bin/activate)
 pip install -r requirements.txt
 python run.py
-
+```
 Los CSV deben estar en data/raw/historico/ y data/raw/incremental_2026-01/ (ajustar CARPETAS en run.py si el nombre cambia). El resultado queda en warehouse.duckdb.
 
 ## Cómo correr los tests

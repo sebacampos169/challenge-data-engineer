@@ -18,11 +18,13 @@ python control.py          # ejecuta queries/control.sql (Q1 a Q6)
 ```
 
 ## Arquitectura (medallón)
-Capa	Esquema	Contenido
-Bronze	bronze	Copia fiel del CSV, todo texto, con archivo, linea
-Silver	silver	Datos tipados, normalizados y validados. Rechazos en silver.rechazados con la regla que fallaron
-Gold	gold	fact_ventas y fact_devoluciones (USD y moneda local) para BI
-Ops	    ops	    ops.corridas: registro de cada carga
+``` bash
+Capa	|Esquema|	Contenido
+Bronze	|bronze	|Copia fiel del CSV, todo texto, con archivo, linea
+Silver	|silver	|Datos tipados, normalizados y validados. Rechazos en silver.rechazados con la regla que fallaron
+Gold	|gold	|fact_ventas y fact_devoluciones (USD y moneda local) para BI
+Ops	    |ops	|    ops.corridas: registro de cada carga
+```
 
 ## Reglas de calidad
 Cada fila inválida se guarda en silver.rechazados (archivo, línea, motivo) y no se pierde. Reglas de ventas: fecha inválida, claves nulas, cantidad ≤ 0, precio ≤ 0, país o categoría inválidos, Retail con cantidad > 100 y ID duplicado dentro del archivo.

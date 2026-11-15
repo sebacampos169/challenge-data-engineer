@@ -1,4 +1,4 @@
-duckdb 2.0.0
+duckdb
 pandas
 requests
 pytest

@@ -3,7 +3,7 @@ con = duckdb.connect('warehouse.duckdb')
 
 #print(con.sql("SHOW ALL TABLES"))
 #con.execute("""DROP TABLE IF EXISTS bronze.precios""")
-print(con.sql("SELECT * FROM gold.fact_ventas LIMIT 10;" ))
+print(con.sql("SELECT * FROM silver.ventas LIMIT 10;" ))
 
 
 #SELECT count(*) FROM bronze.ventas WHERE archivo LIKE '%incremental%';        -- 3238

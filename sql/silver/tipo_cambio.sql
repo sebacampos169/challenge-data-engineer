@@ -1,4 +1,5 @@
 CREATE SCHEMA IF NOT EXISTS silver;
+--ALTER TABLE silver.tipo_cambio ALTER COLUMN tasa TYPE DECIMAL(18,8);
 CREATE TABLE IF NOT EXISTS silver.tipo_cambio (
     fecha DATE,
     moneda VARCHAR,
